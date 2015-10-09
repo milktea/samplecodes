@@ -1,6 +1,6 @@
 #Using Python with the Internet
 #Python requests, parsing xml, beautifulsoup
-#Return article links from thoughtcatalog.com
+#Returns article links from thoughtcatalog.com
 #Milktea
 
 import requests
