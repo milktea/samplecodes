@@ -1,0 +1,9 @@
+ 
+{% extends "index.html" %}
+{% block body %}
+    <h4 class="flask_body">{{lang}}</h4>
+    <h5>Python Versions:</h5>
+    {% for ver in versions %}
+        <p>{{ver}}</p>
+    {% endfor %}
+{% endblock %}
