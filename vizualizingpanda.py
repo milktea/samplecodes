@@ -25,3 +25,10 @@ plt.show()
 
 att.plot()
 plt.legend()
+
+#converting to python list or pandas series
+highs = att['High'].tolist()
+print(highs[-10])
+
+highz = att['High'][-10]
+print highz
