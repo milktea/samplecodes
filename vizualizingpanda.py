@@ -23,5 +23,5 @@ att[['High', 'Low']].plot()
 plt.legend()
 plt.show()
 
-att.plot()
-plt.legend()
+#att.plot()
+#plt.legend()
