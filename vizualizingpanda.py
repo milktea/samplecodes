@@ -19,12 +19,12 @@ att = web.DataReader("T", "yahoo", start, end)
 
 print(att.head())
 
-att[['High', 'Low']].plot()
-plt.legend()
-plt.show()
+#att[['High', 'Low']].plot()
+#plt.legend()
+#plt.show()
 
-att.plot()
-plt.legend()
+#att.plot()
+#plt.legend()
 
 #converting to python list or pandas series
 highs = att['High'].tolist()
